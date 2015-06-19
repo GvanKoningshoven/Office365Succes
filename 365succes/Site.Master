@@ -1,0 +1,266 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="_365succes.SiteMaster" %>
+
+<!DOCTYPE html>
+<html lang="en">
+<head runat="server">
+
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="author" content="SemiColonWeb" />
+
+    <!-- Stylesheets
+    ============================================= -->
+	<link href="http://fonts.googleapis.com/css?family=Lato:300,400,400italic,600,700|Raleway:300,400,500,600,700|Crete+Round:400italic" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="/Content/css/bootstrap.css" type="text/css" />
+    <link rel="stylesheet" href="/Content/style.css" type="text/css" />
+    <link rel="stylesheet" href="/Content/css/dark.css" type="text/css" />
+    <link rel="stylesheet" href="/Content/css/font-icons.css" type="text/css" />
+    <link rel="stylesheet" href="/Content/css/animate.css" type="text/css" />
+    <link rel="stylesheet" href="/Content/css/magnific-popup.css" type="text/css" />
+
+    <link rel="stylesheet" href="/Content/css/responsive.css" type="text/css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <!--[if lt IE 9]>
+    	<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+    <![endif]-->
+
+    <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+
+    <!-- External JavaScripts
+    ============================================= -->
+    <script type="text/javascript" src="/Scripts/js/jquery.js"></script>
+    <script type="text/javascript" src="/Scripts/js/plugins.js"></script>
+
+    <!-- Document Title
+    ============================================= -->
+    <title>Office365Succes | Succesgarantie voor Microsoft Office 365</title>
+
+    <meta charset="utf-8" />
+    
+    <asp:PlaceHolder runat="server">     
+          <%: Scripts.Render("~/bundles/modernizr") %>
+    </asp:PlaceHolder>  
+    <webopt:BundleReference runat="server" Path="~/Content/css" /> 
+    <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <meta name="viewport" content="width=device-width" />
+    <asp:ContentPlaceHolder runat="server" ID="HeadContent" />
+</head>
+<body class="stretched">
+
+    <!-- Document Wrapper
+    ============================================= -->
+    <div id="wrapper" class="clearfix" style="opacity: 0.8">
+
+        <!-- Header
+        ============================================= -->
+        <header id="header" class="transparent-header full-header" data-sticky-class="not-dark">
+
+            <div id="header-wrap" style="background-color: rgba(0,0,0,0.5);">
+
+                <div class="container clearfix">
+
+                    <div id="primary-menu-trigger"><i class="icon-reorder"></i></div>
+
+                    <!-- Logo
+                    ============================================= -->
+                    <div id="logo" class="hidden-xs">
+                        <div id="countdown-ex1" class="countdown countdown-inline coming-soon divcenter bottommargin"></div>
+                                                <div class="divider divider-center divider-short divider-margin" style="margin: -50px 0 0 0; color: #fff;">tot onze lancering</div>
+                                                <script>
+                                                    jQuery(document).ready(function ($) {
+                                                        var newDate = new Date(2015, 8, 16);
+                                                        $('#countdown-ex1').countdown({ until: newDate });
+                                                    });
+
+                                                </script>
+                        
+                    </div><!-- #logo end -->
+
+                    <!-- Primary Navigation
+                    ============================================= -->
+                    <nav id="primary-menu" class="dark">
+
+                        <ul>
+
+                            <li class="current"><a href="../../Home.aspx"><div>Home</div></a>
+                            
+                                 
+                            </li>
+                            <li><a href="/Views/nl/About" style="width: 95%; text-align: center;"><div>Office365Succes [bèta]</div></a>
+                            
+                            </li>
+                            
+                            <li><a href="/Views/nl/Faq"><div>Veelgestelde vragen</div></a>
+                                
+                            </li>
+
+                            <li><a href="/Views/nl/Contact"><div>Contact</div></a>
+                                
+                            </li>
+                        </ul> 
+
+                        
+
+                    </nav><!-- #primary-menu end -->
+
+                </div>
+
+            </div>
+
+        </header><!-- #header end -->
+
+
+    <form runat="server">
+    <asp:ScriptManager runat="server">
+        <Scripts>
+            <%--To learn more about bundling scripts in ScriptManager see http://go.microsoft.com/fwlink/?LinkID=272931&clcid=0x409 --%>
+            <%--Framework Scripts--%>
+            
+            <asp:ScriptReference Name="MsAjaxBundle" />
+            <asp:ScriptReference Name="jquery" />
+            <asp:ScriptReference Name="jquery.ui.combined" />
+            <asp:ScriptReference Name="WebForms.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebForms.js" />
+            <asp:ScriptReference Name="WebUIValidation.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebUIValidation.js" />
+            <asp:ScriptReference Name="MenuStandards.js" Assembly="System.Web" Path="~/Scripts/WebForms/MenuStandards.js" />
+            <asp:ScriptReference Name="GridView.js" Assembly="System.Web" Path="~/Scripts/WebForms/GridView.js" />
+            <asp:ScriptReference Name="DetailsView.js" Assembly="System.Web" Path="~/Scripts/WebForms/DetailsView.js" />
+            <asp:ScriptReference Name="TreeView.js" Assembly="System.Web" Path="~/Scripts/WebForms/TreeView.js" />
+            <asp:ScriptReference Name="WebParts.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebParts.js" />
+            <asp:ScriptReference Name="Focus.js" Assembly="System.Web" Path="~/Scripts/WebForms/Focus.js" />
+            <asp:ScriptReference Name="WebFormsBundle" />
+            <%--Site Scripts--%>
+
+        </Scripts>
+    </asp:ScriptManager>
+    
+    
+        <asp:ContentPlaceHolder runat="server" ID="FeaturedContent" />
+        <section class="content-wrapper main-content clear-fix">
+            <asp:ContentPlaceHolder runat="server" ID="MainContent" />
+        </section>
+        
+    </form>
+    <!-- Footer
+        ============================================= -->
+        <footer id="footer" class="dark" style="background: url('/images/footer-bg.jpg') repeat; background-size: 100% 100%;">
+
+            <div class="container">
+
+                <!-- Footer Widgets
+                ============================================= -->
+                <div class="footer-widgets-wrap clearfix">
+
+                    <div class="col_two_third">
+
+                        <div class="widget clearfix">
+
+                            <img src="/images/footer-widget-logo.png" alt="" class="alignleft" style="margin-top: 8px; padding-right: 0;">
+                            <img src="/images/TQF_trans_Tile2.png" alt="" class="alignleft" style="margin-top: 8px; padding-right: 18px; padding-bottom: 5px; border-right: 1px solid #4A4A4A;">
+                            
+                            <p>Volgens ons moet "Cloud Productivity" anders. 
+                                <strong>Migratie</strong> en 
+                                <strong>rendement</strong> halen is geen éénmalig project, maar een continu proces. Laat u niet meer beperken door traditionele keuzes. Doorbreek het traditionele IT-model en start met ons <strong>365 Succes</strong> abonnement.</p>
+
+                            <div class="line" style="margin: 30px 0;"></div>
+
+                            <div class="row">
+
+                                <div class="col-md-3 col-sm-6 center bottommargin-sm widget_links">
+                                    <ul>
+                                        <li style="margin-bottom: -22px"><h5>Office365Succes<br />
+                                            [bèta]</h5></li>
+                                        <li><a href="/Views/nl/About">Service details</a></li>
+                                        <li><a href="/Views/nl/Promise">Onze belofte</a></li>
+                                    </ul>
+                                </div>
+
+                                <div class="col-md-3 col-sm-6 center bottommargin-sm widget_links">
+                                    <ul>
+                                         <li><h5>Over ons</h5></li>
+                                        <li><a href="/Views/nl/Who">Organisatie</a></li>
+                                        <li><a href="/Views/nl/Work">Werken bij ons</a></li>
+                                    </ul>
+                                </div>
+
+                                 <div class="col-md-3 col-sm-6 center bottommargin-sm widget_links">
+                                    <ul>
+                                         <li><h5>Contact en uitleg</h5></li>
+                                        <li><a href="/Views/nl/Faq">Veelgestelde vragen</a></li>
+                                        <li><a href="/Views/nl/Contact">Contact</a></li>
+                                    </ul>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col_one_third col_last">
+
+                        <div class="widget clearfix" style="margin-bottom: -20px;">
+
+                            
+
+                        </div>
+
+                        
+
+                        <div class="widget clearfix" style="margin-bottom: -20px;">
+
+                            <div class="row">
+
+                                <div class="col-md-6 clearfix bottommargin-sm">
+                                    <a href="https://www.linkedin.com/company/productivity-partners-bv?trk=company_logo" class="social-icon si-dark si-colored si-facebook nobottommargin" style="margin-right: 10px;">
+                                        <i class="icon-linkedin"></i>
+                                        <i class="icon-linkedin"></i>
+                                    </a>
+                                    <a href="https://www.linkedin.com/company/productivity-partners-bv?trk=company_logo"><small style="display: block; margin-top: 3px;"><strong>Volg ons</strong><br>op Linkedin</small></a>
+                                </div>
+                                
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div><!-- .footer-widgets-wrap end -->
+            </div>
+
+            <!-- Copyrights
+            ============================================= -->
+            <div id="copyrights">
+
+                <div class="container clearfix">
+
+                    <div class="col_half">
+                        Copyrights &copy; 2015 All Rights Reserved by Office365Succes.<br>
+                        <!-- <div class="copyright-links"><a href="#">Terms of Use</a> / <a href="#">Privacy Policy</a></div> -->
+                    </div>
+
+                    <div class="col_half col_last tright">
+                        
+
+                        <div class="clear"></div>
+
+                        <i class="icon-envelope2"></i><a href="mailto:Info@office365succes.nl?Subject=Contact%20Office365Succes.nl" target="_top" style="color: #555;">&nbsp;&nbsp;Info@office365succes.nl</a> 
+                        <span class="middot">&middot;</span> 
+                        <i class="icon-phone"></i> +3120 893 2165 <span class="middot">&middot;</span>
+                    </div>
+
+                </div>
+
+            </div><!-- #copyrights end -->
+
+        </footer><!-- #footer end -->
+
+    <!-- Go To Top
+    ============================================= -->
+    <div id="gotoTop" class="icon-angle-up"></div>
+
+    <!-- Footer Scripts
+    ============================================= -->
+    <script type="text/javascript" src="Scripts/js/functions.js"></script>
+   </div>
+</body>
+</html>
