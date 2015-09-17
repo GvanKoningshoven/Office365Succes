@@ -74,7 +74,7 @@
                                                 <div class="divider divider-center divider-short divider-margin" style="margin: -50px 0 0 0; color: #fff;">tot onze lancering</div>
                                                 <script>
                                                     jQuery(document).ready(function ($) {
-                                                        var newDate = new Date(2015, 8, 16);
+                                                        var newDate = new Date(2015, 9, 2);
                                                         $('#countdown-ex1').countdown({ until: newDate });
                                                     });
 
@@ -91,6 +91,25 @@
                             
                                  
                             </li>
+                            
+                            <li>
+                                
+								        <a href="../../../Views/nl/Nieuws.aspx" class="button  button-rounded" style="color: white; background-color: #fec941;">365 TIPS</a>
+                                        <span  style="
+                                                                                        position: absolute;
+                                                                                        display: block;
+                                                                                        width: 0px;
+                                                                                        height: 0px;
+                                                                                        border-style: solid;
+                                                                                        border-width: 0 91px 30px 0;
+                                                                                        border-color: transparent #fec941 transparent transparent;
+                                                                                        margin-top:-6px;
+                                                                                        margin-left: 5px;">
+
+                                        </span>
+						        
+                            </li>
+                            
                             <li><a href="/Views/nl/About" style="width: 95%; text-align: center;"><div>Office365Succes [bèta]</div></a>
                             
                             </li>
@@ -122,7 +141,7 @@
                             <div class="slider-caption">
                                 <h2 data-caption-animate="fadeInUp">Welkom bij Office365Succes [bèta]</h2>
                                 <p data-caption-animate="fadeInUp" data-caption-delay="200">Wij ontwikkelen momenteel een uniek abonnement voor Microsoft Office 365 gebruikers.<br /><br /></p>
-                                <p data-caption-animate="fadeInUp" data-caption-delay="200">15 september 2015 is onze lancering!<br /><br /></p>
+                                <p data-caption-animate="fadeInUp" data-caption-delay="200">1 oktober 2015 is onze lancering!<br /><br /></p>
                                 <p data-caption-animate="fadeInUp" data-caption-delay="200">Wilt u nu al meer weten, of wilt u toetreden tot ons Bèta-programma?<br /></p>
                                 <p data-caption-animate="fadeInUp" data-caption-delay="200"><a href="/Views/nl/Contact">Neem contact met ons op!</a></p>
 
@@ -158,7 +177,7 @@
                                 <h2 data-caption-animate="fadeInUp">Office365Succes [bèta]</h2>
                                 <p data-caption-animate="fadeInUp" data-caption-delay="200">Ontzorging en rendement met Microsoft Office 365.<br /><br /></p>
                                 
-                                <p data-caption-animate="fadeInUp" data-caption-delay="200">15 september 2015 is onze lancering!<br /><br /></p>
+                                <p data-caption-animate="fadeInUp" data-caption-delay="200">1 oktober 2015 is onze lancering!<br /><br /></p>
                                 <p data-caption-animate="fadeInUp" data-caption-delay="200">Wilt u nu al meer weten, of wilt u toetreden tot ons Bèta-programma?<br /></p>
                                 <p data-caption-animate="fadeInUp" data-caption-delay="200"><a href="/Views/nl/Contact">Neem contact met ons op!</a></p>
 
@@ -179,7 +198,7 @@
                             <div class="slider-caption  slider-caption-left">
                                 <h2 data-caption-animate="fadeInUp">Office365Succes [bèta]</h2>
                                 <p data-caption-animate="fadeInUp" data-caption-delay="200">Microsoft Office 365 niet aanzetten, maar "uitnutten".<br /><br /></p>
-                                <p data-caption-animate="fadeInUp" data-caption-delay="200">15 september 2015 is onze lancering!<br /><br /></p>
+                                <p data-caption-animate="fadeInUp" data-caption-delay="200">1 oktober 2015 is onze lancering!<br /><br /></p>
                                 <p data-caption-animate="fadeInUp" data-caption-delay="200">Wilt u nu al meer weten, of wilt u toetreden tot ons Bèta-programma?<br /></p>
                                 <p data-caption-animate="fadeInUp" data-caption-delay="200"><a href="/Views/nl/Contact">Neem contact met ons op!</a></p>
 
@@ -198,7 +217,7 @@
                                 <h2 data-caption-animate="fadeInUp">Office365Succes [bèta]</h2>
                                 <p data-caption-animate="fadeInUp" data-caption-delay="200">Bijna 10% van de werktijd is niet productief door slecht functionerende ICT en gebrekkige digitale vaardigheden.<br /></p>
                                 <p data-caption-animate="fadeInUp" data-caption-delay="200">Hoogste tijd voor Office365Succes!<br /><br /></p>
-                                <p data-caption-animate="fadeInUp" data-caption-delay="200">15 september 2015 is onze lancering!<br /><br /></p>
+                                <p data-caption-animate="fadeInUp" data-caption-delay="200">1 oktober 2015 is onze lancering!<br /><br /></p>
                                 <p data-caption-animate="fadeInUp" data-caption-delay="200">Wilt u nu al meer weten, of wilt u toetreden tot ons Bèta-programma?<br /></p>
                                 <p data-caption-animate="fadeInUp" data-caption-delay="200"><a href="/Views/nl/Contact">Neem contact met ons op!</a></p>
 
@@ -217,7 +236,7 @@
                             <div class="slider-caption  slider-caption-left">
                                 <h2 data-caption-animate="fadeInUp">Office365Succes [bèta]</h2>
                                 <p data-caption-animate="fadeInUp" data-caption-delay="200">Voor minder dan 1 Euro per gebruiker per dag migratie, ontzorging en rendement.<br /><br /></p>
-                                <p data-caption-animate="fadeInUp" data-caption-delay="200">15 september 2015 is onze lancering!<br /><br /></p>
+                                <p data-caption-animate="fadeInUp" data-caption-delay="200">1 oktober 2015 is onze lancering!<br /><br /></p>
                                 <p data-caption-animate="fadeInUp" data-caption-delay="200">Wilt u nu al meer weten, of wilt u toetreden tot ons Bèta-programma?<br /></p>
                                 <p data-caption-animate="fadeInUp" data-caption-delay="200"><a href="/Views/nl/Contact">Neem contact met ons op!</a></p>
 
@@ -706,8 +725,7 @@
 
                         <div class="widget clearfix">
 
-                            <img src="/images/footer-widget-logo.png" alt="" class="alignleft" style="margin-top: 8px; padding-right: 0;">
-                            <img src="/images/TQF_trans_Tile2.png" alt="" class="alignleft" style="margin-top: 8px; padding-right: 18px; padding-bottom: 5px; border-right: 1px solid #4A4A4A;">
+                            <img src="/images/365Succesfooter.png" alt="" class="alignleft" style="margin-top: 8px; padding-right: 0;">
                             
                             <p>Volgens ons moet "Cloud Productivity" anders. 
                                 <strong>Migratie</strong> en 

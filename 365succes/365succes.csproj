@@ -19,6 +19,7 @@
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -247,6 +248,8 @@
     <Content Include="Content\themes\base\minified\jquery.ui.tabs.min.css" />
     <Content Include="Content\themes\base\minified\jquery.ui.theme.min.css" />
     <Content Include="Home.aspx" />
+    <Content Include="Images\365Succes.png" />
+    <Content Include="Images\365Succesfooter.png" />
     <Content Include="Images\about\1.jpg" />
     <Content Include="Images\about\2.jpg" />
     <Content Include="Images\about\3.jpg" />
@@ -315,11 +318,17 @@
     <Content Include="Images\blog\small\6-1.jpg" />
     <Content Include="Images\blog\small\6-2.jpg" />
     <Content Include="Images\blog\standard\1.jpg" />
-    <Content Include="Images\blog\standard\10.jpg" />
-    <Content Include="Images\blog\standard\17.jpg" />
-    <Content Include="Images\blog\standard\20.jpg" />
-    <Content Include="Images\blog\standard\21.jpg" />
-    <Content Include="Images\blog\standard\22.jpg" />
+    <Content Include="Images\blog\standard\2.jpg" />
+    <Content Include="Images\blog\standard\3.jpg" />
+    <Content Include="Images\blog\standard\365SuccesNieuws.png" />
+    <Content Include="Images\blog\standard\4.jpg" />
+    <Content Include="Images\blog\standard\5.jpg" />
+    <Content Include="Images\blog\standard\Articles\1_5 Co-Author.jpg" />
+    <Content Include="Images\blog\standard\Articles\2-1.jpg" />
+    <Content Include="Images\blog\standard\Articles\2-2.jpg" />
+    <Content Include="Images\blog\standard\Articles\3-1.jpg" />
+    <Content Include="Images\blog\standard\Articles\5-1.jpg" />
+    <Content Include="Images\blog\standard\Articles\5-2.jpg" />
     <Content Include="Images\bullet.png" />
     <Content Include="Images\camera_skins.png" />
     <Content Include="Images\clients\1.png" />
@@ -1270,10 +1279,19 @@
     <Content Include="Scripts\WebForms\WebUIValidation.js" />
     <Content Include="ViewSwitcher.ascx" />
     <Content Include="Views\nl\About.aspx" />
+    <Content Include="Views\nl\Blog\Nieuws_5.aspx" />
+    <Content Include="Views\nl\Blog\Nieuws_4.aspx" />
+    <Content Include="Views\nl\Blog\Nieuws_3.aspx" />
+    <Content Include="Views\nl\Blog\Nieuws_2.aspx" />
+    <Content Include="Views\nl\Blog\Nieuws_1.aspx" />
     <Content Include="Views\nl\Contact.aspx" />
     <Content Include="Views\nl\Faq.aspx" />
+    <Content Include="Views\nl\Nieuws.aspx" />
     <Content Include="Views\nl\Promise.aspx" />
     <Content Include="Views\nl\ThankYou.aspx" />
+    <Content Include="Views\nl\ThankYouMail.aspx" />
+    <Content Include="Views\nl\ThankYouUnsubscribe.aspx" />
+    <Content Include="Views\nl\Unsubscribe.aspx" />
     <Content Include="Views\nl\Vragen.aspx" />
     <Content Include="Views\nl\Who.aspx" />
     <Content Include="Views\nl\Work.aspx" />
@@ -1391,6 +1409,41 @@
     <Compile Include="Views\nl\About.aspx.designer.cs">
       <DependentUpon>About.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Views\nl\Blog\Nieuws_5.aspx.cs">
+      <DependentUpon>Nieuws_5.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\nl\Blog\Nieuws_5.aspx.designer.cs">
+      <DependentUpon>Nieuws_5.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\nl\Blog\Nieuws_4.aspx.cs">
+      <DependentUpon>Nieuws_4.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\nl\Blog\Nieuws_4.aspx.designer.cs">
+      <DependentUpon>Nieuws_4.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\nl\Blog\Nieuws_3.aspx.cs">
+      <DependentUpon>Nieuws_3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\nl\Blog\Nieuws_3.aspx.designer.cs">
+      <DependentUpon>Nieuws_3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\nl\Blog\Nieuws_2.aspx.cs">
+      <DependentUpon>Nieuws_2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\nl\Blog\Nieuws_2.aspx.designer.cs">
+      <DependentUpon>Nieuws_2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\nl\Blog\Nieuws_1.aspx.cs">
+      <DependentUpon>Nieuws_1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\nl\Blog\Nieuws_1.aspx.designer.cs">
+      <DependentUpon>Nieuws_1.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Views\nl\Contact.aspx.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -1405,6 +1458,13 @@
     <Compile Include="Views\nl\Faq.aspx.designer.cs">
       <DependentUpon>Faq.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Views\nl\Nieuws.aspx.cs">
+      <DependentUpon>Nieuws.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\nl\Nieuws.aspx.designer.cs">
+      <DependentUpon>Nieuws.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Views\nl\Promise.aspx.cs">
       <DependentUpon>Promise.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -1418,6 +1478,27 @@
     </Compile>
     <Compile Include="Views\nl\ThankYou.aspx.designer.cs">
       <DependentUpon>ThankYou.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\nl\ThankYouMail.aspx.cs">
+      <DependentUpon>ThankYouMail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\nl\ThankYouMail.aspx.designer.cs">
+      <DependentUpon>ThankYouMail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\nl\ThankYouUnsubscribe.aspx.cs">
+      <DependentUpon>ThankYouUnsubscribe.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\nl\ThankYouUnsubscribe.aspx.designer.cs">
+      <DependentUpon>ThankYouUnsubscribe.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\nl\Unsubscribe.aspx.cs">
+      <DependentUpon>Unsubscribe.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\nl\Unsubscribe.aspx.designer.cs">
+      <DependentUpon>Unsubscribe.aspx</DependentUpon>
     </Compile>
     <Compile Include="Views\nl\Vragen.aspx.cs">
       <DependentUpon>Vragen.aspx</DependentUpon>

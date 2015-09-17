@@ -62,7 +62,7 @@
                                                 <div class="divider divider-center divider-short divider-margin" style="margin: -50px 0 0 0; color: #fff;">tot onze lancering</div>
                                                 <script>
                                                     jQuery(document).ready(function ($) {
-                                                        var newDate = new Date(2015, 8, 16);
+                                                        var newDate = new Date(2015, 9, 2);
                                                         $('#countdown-ex1').countdown({ until: newDate });
                                                     });
 
@@ -80,6 +80,24 @@
                             
                                  
                             </li>
+                            <li>
+                                
+								        <a href="../../../Views/nl/Nieuws.aspx" class="button  button-rounded" style="color: white; background-color: #fec941;">365 TIPS</a>
+                                        <span  style="
+                                                                                        position: absolute;
+                                                                                        display: block;
+                                                                                        width: 0px;
+                                                                                        height: 0px;
+                                                                                        border-style: solid;
+                                                                                        border-width: 0 91px 30px 0;
+                                                                                        border-color: transparent #fec941 transparent transparent;
+                                                                                        margin-top:-6px;
+                                                                                        margin-left: 5px;">
+
+                                        </span>
+						        
+                            </li>
+                            
                             <li><a href="/Views/nl/About" style="width: 95%; text-align: center;"><div>Office365Succes [bèta]</div></a>
                             
                             </li>
@@ -128,9 +146,8 @@
 
                         <div class="widget clearfix">
 
-                            <img src="/images/footer-widget-logo.png" alt="" class="alignleft" style="margin-top: 8px; padding-right: 0;" />
-                            <img src="/images/TQF_trans_Tile2.png" alt="" class="alignleft" style="margin-top: 8px; padding-right: 18px; padding-bottom: 5px; border-right: 1px solid #4A4A4A;" />
-                            
+                            <img src="/images/365Succesfooter.png" alt="" class="alignleft" style="margin-top: 8px; padding-right: 0;" />
+                                                        
                             <p>Volgens ons moet "Cloud Productivity" anders. 
                                 <strong>Migratie</strong> en 
                                 <strong>rendement</strong> halen is geen éénmalig project, maar een continu proces. Laat u niet meer beperken door traditionele keuzes. Doorbreek het traditionele IT-model en start met ons <strong>365 Succes</strong> abonnement.</p>
@@ -172,9 +189,7 @@
 
                     <div class="col_one_third col_last">
 
-                        <div class="widget clearfix" style="margin-bottom: -20px;">
-
-                            
+                        <div class="widget clearfix" style="margin-bottom: -20px;">    
 
                         </div>
 

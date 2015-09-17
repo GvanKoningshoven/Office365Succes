@@ -129,13 +129,13 @@
 
                             <div class="toggle faq faq-authors">
                                 <div class="togglet"><i class="toggle-closed icon-question-sign"></i><i class="toggle-open icon-question-sign"></i>Tot wanneer loopt het bèta-programma?</div>
-                                <div class="togglec">Vanaf 15 september 2015 is de officiële lancering en is het abonnement algemeen beschikbaar.
+                                <div class="togglec">Vanaf 1 oktober 2015 is de officiële lancering en is het abonnement algemeen beschikbaar.
                                 </div>
                             </div>
 
                             <div class="toggle faq faq-authors">
                                 <div class="togglet"><i class="toggle-closed icon-question-sign"></i><i class="toggle-open icon-question-sign"></i>Hoe krijg ik toegang tot het bèta-programma?</div>
-                                <div class="togglec">Het bèta-programma is reeds gestart bij een aantal geselecteerde organisaties. Als u niet kunt wachten tot 15 september en snel wilt starten met migratie en ontzorging dan kunnen we in overleg bepalen of en hoe we u al voor onze officiële lancering kunnen ondersteunen. <a href="/Views/nl/Contact">Neem dan s.v.p. contact met ons op voor een afspraak.</a>
+                                <div class="togglec">Het bèta-programma is reeds gestart bij een aantal geselecteerde organisaties. Als u niet kunt wachten tot 1 oktober en snel wilt starten met migratie en ontzorging dan kunnen we in overleg bepalen of en hoe we u al voor onze officiële lancering kunnen ondersteunen. <a href="/Views/nl/Contact">Neem dan s.v.p. contact met ons op voor een afspraak.</a>
                                 </div>
                             </div>
 
